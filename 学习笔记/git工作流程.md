@@ -45,3 +45,6 @@ git merge new-feature
 `git branch -d new-feature`  
 或者从远程仓库删除分支：  
 `git push origin --delete new-feature`
+
+### 如果需要从github往本地下载文件怎么办，
+只下载部分文件而且这些文件已经在本地了，
