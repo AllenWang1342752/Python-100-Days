@@ -10,6 +10,10 @@
 git clone https://github.com/username/repo.git
 cd repo
 ```
+> 只能全部克隆吗，还是可以只下载部分，
+> 远程仓库的修改是否可以覆盖本地的文件
+
+
 ### 2、创建新分支
 为了避免直接在 main 或 master 分支上进行开发，通常会创建一个新的分支：
 `git checkout -b new-feature`
