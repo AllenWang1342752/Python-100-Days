@@ -32,6 +32,7 @@ cd repo
 `git pull origin main`  
 或者如果在新的分支上工作  
 `git pull origin new-feature`
+> 最新的更改，指的是最新远程仓库上面的信息吗？
 ### 7、推送更改
 将本地的提交推送到远程仓库：  
 `git push origin new-feature`
