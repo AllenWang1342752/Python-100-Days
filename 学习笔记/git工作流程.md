@@ -16,7 +16,8 @@ cd repo
 `git status`可以看未提交的修改（工作区+暂存区）  
 `nothing to commit,working tree clean`则为干干净净，表示无任何修改  
 `git pull`只看提交记录是否一致，不管本地是否修改了文件。  
-`git pull = git fetch + git merge`,git会比较本地当前分支的commit ID和远程当前分支的commit ID，如果两个ID一样，就会认为是`already up to date`
+`git pull = git fetch + git merge`,git会比较本地当前分支的commit ID和远程当前分支的commit ID，如果两个ID一样，就会认为是`already up to date`  
+即使执行`git commit`，也是将文件在本地做了提交，需要再执行`git push origin master`才可以将本地的提交，提交到远程仓库
 
 ### 2、创建新分支
 为了避免直接在 main 或 master 分支上进行开发，通常会创建一个新的分支：
